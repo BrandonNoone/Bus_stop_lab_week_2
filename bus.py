@@ -5,5 +5,10 @@ class Bus:
         self.passengers = []
         self.drive = drive
 
-    def passengers (self):
-        return 
+    def num_of_passengers (self):
+        return len(self.passengers)
+    
+    def pick_up (self, name):
+        [self.passenger].append(name)
+    
+    

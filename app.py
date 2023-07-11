@@ -1,8 +1,12 @@
-from person import People
+from person import Person
 from bus import Bus
 
 bus_1 = Bus("22", "Ocean Terminal", 0, "Brum Brum")
 
-tammy = person("Tammy", 25)
+tammy = Person("Tammy", 25)
+summer = Person("Summer", 2)
 
-p
+print (bus_1.num_of_passengers())
+
+first = bus_1.pick_up("Tammy")
+
